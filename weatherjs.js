@@ -26,13 +26,13 @@ $(document).ready(function () {
     function updateDOM(data) {
         var city = data.name;
         var temp = Math.round(data.main.temp_max);
-			  var press= Math.round(data.main.pressure);
+	var pressure= Math.round(data.main.pressure);
         var desc = data.weather[0].description;
         var icon = data.weather[0].icon;
 
         $('#city').html(city);
         $('#temp').html(temp);
-			  $('#pressure').html(press);
+        $('#pressure').html(pressure);
         $('#desc').html(desc);
         $('#icon').attr('src', icon);
     }
