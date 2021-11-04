@@ -18,6 +18,11 @@ span {
 	font-size: 6rem;
 	font-weight: 600;
 }
+#pres{
+	font-size: 1.5rem;
+	font-weight: 200;
+}
+
 
 .container {
 	max-width: 550px;
