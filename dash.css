@@ -41,9 +41,7 @@ h1 {
   display: none;
 }
 #placement {
-    
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: 45%;
 }
 .table {
   margin-top: 50px;
